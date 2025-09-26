@@ -1,0 +1,14 @@
+{
+  "additional_files": {},
+  "description": "",
+  "files": [
+    "..\\urdf\\adam1_servo.urdf",
+    "adam1_servo_collisions.yml",
+    "adam1_servo_joints.yml",
+    "adam1_servo_links.yml",
+    "adam1_servo_materials.yml",
+    "adam1_servo_visuals.yml"
+  ],
+  "modelname": "adam1_servo",
+  "version": "0.0.0"
+}

@@ -1,0 +1,620 @@
+{
+  "joints": [
+    {
+      "child": "left_hip_roll_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_hip_roll_joint",
+      "origin": {
+        "position": [
+          0.028699999675154686,
+          0.024383902549743652,
+          0.04900044947862625
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "pelvis_link"
+    },
+    {
+      "child": "left_hip_yaw_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_hip_yaw_joint",
+      "origin": {
+        "position": [
+          -0.021575117483735085,
+          0.05996380001306534,
+          -0.008675020188093185
+        ],
+        "relative_to": "left_hip_roll_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "left_hip_roll_link"
+    },
+    {
+      "child": "left_hip_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_hip_pitch_joint",
+      "origin": {
+        "position": [
+          -0.004624887835234404,
+          0.025481604039669037,
+          -0.026696279644966125
+        ],
+        "relative_to": "left_hip_yaw_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "left_hip_yaw_link"
+    },
+    {
+      "child": "left_knee_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_knee_joint",
+      "origin": {
+        "position": [
+          -8.381903171539307e-09,
+          -0.009425602853298187,
+          -0.20200049504637718
+        ],
+        "relative_to": "left_hip_pitch_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "left_hip_pitch_link"
+    },
+    {
+      "child": "left_ankle_roll_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_ankle_roll_joint",
+      "origin": {
+        "position": [
+          0.019152693916112185,
+          -0.018950797617435455,
+          -0.16499997675418854
+        ],
+        "relative_to": "left_knee_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "left_knee_link"
+    },
+    {
+      "child": "left_ankle_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_ankle_pitch_joint",
+      "origin": {
+        "position": [
+          -0.018999962601810694,
+          0.018949799239635468,
+          -0.034999996423721313
+        ],
+        "relative_to": "left_ankle_roll_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "left_ankle_roll_link"
+    },
+    {
+      "child": "right_hip_roll_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_hip_roll_joint",
+      "origin": {
+        "position": [
+          0.028700001537799835,
+          -0.024819698184728622,
+          0.04897354915738106
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "pelvis_link"
+    },
+    {
+      "child": "right_hip_yaw_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_hip_yaw_joint",
+      "origin": {
+        "position": [
+          -0.021575111895799637,
+          -0.05996379628777504,
+          -0.00867478922009468
+        ],
+        "relative_to": "right_hip_roll_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "right_hip_roll_link"
+    },
+    {
+      "child": "right_hip_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_hip_pitch_joint",
+      "origin": {
+        "position": [
+          -0.004624885506927967,
+          -0.02548220008611679,
+          -0.026696108281612396
+        ],
+        "relative_to": "right_hip_yaw_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "right_hip_yaw_link"
+    },
+    {
+      "child": "right_knee_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_knee_joint",
+      "origin": {
+        "position": [
+          -9.313225746154785e-09,
+          0.009424999356269836,
+          -0.20200099796056747
+        ],
+        "relative_to": "right_hip_pitch_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "right_hip_pitch_link"
+    },
+    {
+      "child": "right_ankle_roll_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_ankle_roll_joint",
+      "origin": {
+        "position": [
+          0.019152692519128323,
+          0.018950000405311584,
+          -0.16499997675418854
+        ],
+        "relative_to": "right_knee_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "right_knee_link"
+    },
+    {
+      "child": "right_ankle_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_ankle_pitch_joint",
+      "origin": {
+        "position": [
+          -0.018999961204826832,
+          -0.018950000405311584,
+          -0.034999996423721313
+        ],
+        "relative_to": "right_ankle_roll_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "right_ankle_roll_link"
+    },
+    {
+      "child": "torso_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "torso_pitch_joint",
+      "origin": {
+        "position": [
+          0.032999999821186066,
+          0.028454702347517014,
+          0.11614395678043365
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "pelvis_link"
+    },
+    {
+      "child": "torso_roll_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "torso_roll_joint",
+      "origin": {
+        "position": [
+          -0.07469969987869263,
+          -0.028700023889541626,
+          0.02117869257926941
+        ],
+        "relative_to": "torso_pitch_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "torso_pitch_link"
+    },
+    {
+      "child": "torso_yaw_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "torso_yaw_joint",
+      "origin": {
+        "position": [
+          0.06004020385444164,
+          2.7939677238464355e-09,
+          0.059780001640319824
+        ],
+        "relative_to": "torso_roll_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "torso_roll_link"
+    },
+    {
+      "child": "head_yaw_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "head_yaw_joint",
+      "origin": {
+        "position": [
+          0.018688010051846504,
+          -4.97894361615181e-05,
+          0.16322000324726105
+        ],
+        "relative_to": "torso_yaw_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "torso_yaw_link"
+    },
+    {
+      "child": "head_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "head_pitch_joint",
+      "origin": {
+        "position": [
+          0.0,
+          0.018949998542666435,
+          0.018999993801116943
+        ],
+        "relative_to": "head_yaw_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "head_yaw_link"
+    },
+    {
+      "child": "head_roll_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "head_roll_joint",
+      "origin": {
+        "position": [
+          -0.05040000006556511,
+          -0.019000002183020115,
+          0.010350018739700317
+        ],
+        "relative_to": "head_pitch_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "head_pitch_link"
+    },
+    {
+      "child": "left_shoulder_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_shoulder_pitch_joint",
+      "origin": {
+        "position": [
+          -0.017306078225374222,
+          0.09852801356464624,
+          0.1304999738931656
+        ],
+        "relative_to": "torso_yaw_link",
+        "rotation": [
+          0.0,
+          -1.1920928955078125e-07,
+          0.0
+        ]
+      },
+      "parent": "torso_yaw_link"
+    },
+    {
+      "child": "left_shoulder_roll_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_shoulder_roll_joint",
+      "origin": {
+        "position": [
+          0.018950028106573043,
+          0.021291598677635193,
+          -0.0019999765098128175
+        ],
+        "relative_to": "left_shoulder_pitch_link",
+        "rotation": [
+          0.0,
+          1.1920928955078125e-07,
+          0.0
+        ]
+      },
+      "parent": "left_shoulder_pitch_link"
+    },
+    {
+      "child": "left_shoulder_yaw_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_shoulder_yaw_joint",
+      "origin": {
+        "position": [
+          -0.032274991273880005,
+          1.4901161193847656e-08,
+          -0.04000002145767212
+        ],
+        "relative_to": "left_shoulder_roll_link",
+        "rotation": [
+          -7.105427145842759e-15,
+          -1.5543122344752192e-15,
+          -7.1054273576009955e-15
+        ]
+      },
+      "parent": "left_shoulder_roll_link"
+    },
+    {
+      "child": "left_elbow_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_elbow_pitch_joint",
+      "origin": {
+        "position": [
+          0.014247001381591101,
+          -0.019407786428927445,
+          -0.11782804131507893
+        ],
+        "relative_to": "left_shoulder_yaw_link",
+        "rotation": [
+          -1.7763568394002505e-15,
+          1.9984014443252818e-15,
+          1.203012880462043e-29
+        ]
+      },
+      "parent": "left_shoulder_yaw_link"
+    },
+    {
+      "child": "left_hand_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "left_hand_joint",
+      "origin": {
+        "position": [
+          0.12263700249604859,
+          0.03078574687242598,
+          -0.00448839366435963
+        ],
+        "relative_to": "left_elbow_pitch_link",
+        "rotation": [
+          4.371140427394985e-08,
+          -7.549790148608793e-08,
+          -8.50289104030946e-15
+        ]
+      },
+      "parent": "left_elbow_pitch_link"
+    },
+    {
+      "child": "right_shoulder_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_shoulder_pitch_joint",
+      "origin": {
+        "position": [
+          -0.01730606984347105,
+          -0.09862738754600286,
+          0.1304999738931656
+        ],
+        "relative_to": "torso_yaw_link",
+        "rotation": [
+          0.0,
+          -1.1920928955078125e-07,
+          0.0
+        ]
+      },
+      "parent": "torso_yaw_link"
+    },
+    {
+      "child": "right_shoulder_roll_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_shoulder_roll_joint",
+      "origin": {
+        "position": [
+          0.01895001972466632,
+          -0.02129199355840683,
+          -0.002000006312134206
+        ],
+        "relative_to": "right_shoulder_pitch_link",
+        "rotation": [
+          0.0,
+          1.1920928955078125e-07,
+          0.0
+        ]
+      },
+      "parent": "right_shoulder_pitch_link"
+    },
+    {
+      "child": "right_shoulder_yaw_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_shoulder_yaw_joint",
+      "origin": {
+        "position": [
+          -0.032274991273880005,
+          -7.450580596923828e-09,
+          -0.04000002145767212
+        ],
+        "relative_to": "right_shoulder_roll_link",
+        "rotation": [
+          7.105427145842759e-15,
+          -1.5543122344752192e-15,
+          7.1054273576009955e-15
+        ]
+      },
+      "parent": "right_shoulder_roll_link"
+    },
+    {
+      "child": "right_elbow_pitch_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_elbow_pitch_joint",
+      "origin": {
+        "position": [
+          0.0142470013815911,
+          0.01940780133008864,
+          -0.11782801151275651
+        ],
+        "relative_to": "right_shoulder_yaw_link",
+        "rotation": [
+          1.7763568394002505e-15,
+          1.9984014443252818e-15,
+          -1.203012880462043e-29
+        ]
+      },
+      "parent": "right_shoulder_yaw_link"
+    },
+    {
+      "child": "right_hand_link",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "right_hand_joint",
+      "origin": {
+        "position": [
+          0.12263661506585756,
+          -0.03078574687242598,
+          -0.004488393664359658
+        ],
+        "relative_to": "right_elbow_pitch_link",
+        "rotation": [
+          -4.371140427394985e-08,
+          -7.549790148608793e-08,
+          8.50289104030946e-15
+        ]
+      },
+      "parent": "right_elbow_pitch_link"
+    }
+  ]
+}

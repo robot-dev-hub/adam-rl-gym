@@ -1,0 +1,1253 @@
+{
+  "visuals": [
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\pelvis_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "pelvis_link_visual"
+      },
+      "name": "pelvis_link_visual",
+      "origin": {
+        "position": [
+          -4.656612873077393e-10,
+          0.0,
+          0.0
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "pelvis_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_hip_roll_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_hip_roll_link_visual"
+      },
+      "name": "left_hip_roll_link_visual",
+      "origin": {
+        "position": [
+          1.862645149230957e-09,
+          -3.725290298461914e-09,
+          0.0
+        ],
+        "relative_to": "left_hip_roll_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "left_hip_roll_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_hip_yaw_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_hip_yaw_link_visual"
+      },
+      "name": "left_hip_yaw_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          7.450580596923828e-09,
+          0.0
+        ],
+        "relative_to": "left_hip_yaw_link",
+        "rotation": [
+          1.5707963705062828,
+          5.1259863116381865e-06,
+          1.5707963705062828
+        ]
+      },
+      "original_name": "left_hip_yaw_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_hip_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_hip_pitch_link_visual"
+      },
+      "name": "left_hip_pitch_link_visual",
+      "origin": {
+        "position": [
+          4.656612873077393e-10,
+          0.0,
+          0.0
+        ],
+        "relative_to": "left_hip_pitch_link",
+        "rotation": [
+          1.570796370506284,
+          -5.096184140018778e-06,
+          -1.570796489715561
+        ]
+      },
+      "original_name": "left_hip_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_knee_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_knee_link_visual"
+      },
+      "name": "left_knee_link_visual",
+      "origin": {
+        "position": [
+          4.656612873077393e-10,
+          0.0,
+          0.0
+        ],
+        "relative_to": "left_knee_link",
+        "rotation": [
+          1.5707963705062824,
+          -5.125986316301123e-06,
+          -1.5707962512969982
+        ]
+      },
+      "original_name": "left_knee_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_ankle_roll_link_visual.001.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_ankle_roll_link_visual.001"
+      },
+      "name": "left_ankle_roll_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "left_ankle_roll_link",
+        "rotation": [
+          1.5707963705062828,
+          5.1259863116381865e-06,
+          1.5707963705062828
+        ]
+      },
+      "original_name": "left_ankle_roll_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_ankle_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_ankle_pitch_link_visual"
+      },
+      "name": "left_ankle_pitch_link_visual",
+      "origin": {
+        "position": [
+          -1.3969838619232178e-09,
+          0.0,
+          0.0
+        ],
+        "relative_to": "left_ankle_pitch_link",
+        "rotation": [
+          1.5707964897155418,
+          5.066381951301935e-06,
+          1.5707966089248118
+        ]
+      },
+      "original_name": "left_ankle_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_hip_roll_link_visual.obj",
+            "operations": [
+              {
+                "scale": [
+                  [
+                    1.000000238418579,
+                    1.000000238418579,
+                    1.0
+                  ]
+                ]
+              },
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.000000238418579,
+          1.000000238418579,
+          1.0
+        ],
+        "unique_name": "right_hip_roll_link_visual"
+      },
+      "name": "right_hip_roll_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          3.725290298461914e-09,
+          3.725290298461914e-09
+        ],
+        "relative_to": "right_hip_roll_link",
+        "rotation": [
+          1.5707963705062855,
+          -0.3490656565165089,
+          1.5707963705062855
+        ]
+      },
+      "original_name": "right_hip_roll_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_hip_yaw_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_hip_yaw_link_visual"
+      },
+      "name": "right_hip_yaw_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "right_hip_yaw_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "right_hip_yaw_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_hip_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_hip_pitch_link_visual"
+      },
+      "name": "right_hip_pitch_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "right_hip_pitch_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "right_hip_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_knee_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_knee_link_visual"
+      },
+      "name": "right_knee_link_visual",
+      "origin": {
+        "position": [
+          9.313225746154785e-10,
+          0.0,
+          0.0
+        ],
+        "relative_to": "right_knee_link",
+        "rotation": [
+          1.5707964897155675,
+          5.960463766996327e-08,
+          -1.570796370506285
+        ]
+      },
+      "original_name": "right_knee_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_ankle_roll_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_ankle_roll_link_visual"
+      },
+      "name": "right_ankle_roll_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "right_ankle_roll_link",
+        "rotation": [
+          1.5707964897155673,
+          -2.980232682858741e-08,
+          -1.5707964897155673
+        ]
+      },
+      "original_name": "right_ankle_roll_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_ankle_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_ankle_pitch_link_visual"
+      },
+      "name": "right_ankle_pitch_link_visual",
+      "origin": {
+        "position": [
+          -2.7939677238464355e-09,
+          0.0,
+          0.0
+        ],
+        "relative_to": "right_ankle_pitch_link",
+        "rotation": [
+          1.5707964897155675,
+          5.960463766996327e-08,
+          -1.570796370506285
+        ]
+      },
+      "original_name": "right_ankle_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\torso_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "torso_pitch_link_visual"
+      },
+      "name": "torso_pitch_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "torso_pitch_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "torso_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\torso_roll_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "torso_roll_link_visual"
+      },
+      "name": "torso_roll_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "torso_roll_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "torso_roll_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\torso_yaw_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "torso_yaw_link_visual"
+      },
+      "name": "torso_yaw_link_visual",
+      "origin": {
+        "position": [
+          1.862645149230957e-09,
+          -2.7939677238464355e-09,
+          0.0
+        ],
+        "relative_to": "torso_yaw_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "torso_yaw_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\head_yaw_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "head_yaw_link_visual"
+      },
+      "name": "head_yaw_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "head_yaw_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "head_yaw_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\head_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "head_pitch_link_visual"
+      },
+      "name": "head_pitch_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "head_pitch_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "head_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\head_roll_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "head_roll_link_visual"
+      },
+      "name": "head_roll_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          9.313225746154785e-10,
+          0.0
+        ],
+        "relative_to": "head_roll_link",
+        "rotation": [
+          1.570796370506284,
+          0.0,
+          1.570796370506284
+        ]
+      },
+      "original_name": "head_roll_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_shoulder_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_shoulder_pitch_link_visual"
+      },
+      "name": "left_shoulder_pitch_link_visual",
+      "origin": {
+        "position": [
+          1.2572858310022639e-08,
+          0.0,
+          2.980232088889423e-08
+        ],
+        "relative_to": "left_shoulder_pitch_link",
+        "rotation": [
+          -3.1415925661670165,
+          -4.371138828673793e-08,
+          1.5707963267948948
+        ]
+      },
+      "original_name": "left_shoulder_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_shoulder_roll_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_shoulder_roll_link_visual"
+      },
+      "name": "left_shoulder_roll_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "left_shoulder_roll_link",
+        "rotation": [
+          1.570796295008393,
+          1.5707963267948908,
+          0.0
+        ]
+      },
+      "original_name": "left_shoulder_roll_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_shoulder_yaw_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_shoulder_yaw_link_visual"
+      },
+      "name": "left_shoulder_yaw_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          7.450580596923828e-09,
+          -2.9802322387695312e-08
+        ],
+        "relative_to": "left_shoulder_yaw_link",
+        "rotation": [
+          -1.5707963705062884,
+          -4.371139028513937e-08,
+          -1.5707962950083867
+        ]
+      },
+      "original_name": "left_shoulder_yaw_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\left_elbow_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "left_elbow_pitch_link_visual"
+      },
+      "name": "left_elbow_pitch_link_visual",
+      "origin": {
+        "position": [
+          -1.1641532182693481e-09,
+          0.0,
+          -1.4901161193847656e-08
+        ],
+        "relative_to": "left_elbow_pitch_link",
+        "rotation": [
+          4.440892098500626e-15,
+          -3.1786508980502504e-08,
+          -1.5707963705062964
+        ]
+      },
+      "original_name": "left_elbow_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\ID535.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "ID535"
+      },
+      "name": "left_hand_link_visual",
+      "origin": {
+        "position": [
+          2.98023212635945e-08,
+          -6.38378239159465e-16,
+          -1.4901163469804857e-08
+        ],
+        "relative_to": "left_hand_link",
+        "rotation": [
+          1.5707962512969806,
+          3.1786507648234874e-08,
+          -5.440092820663267e-15
+        ]
+      },
+      "original_name": "left_hand_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\ID26.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "ID26"
+      },
+      "name": "left_gloves_link_visual",
+      "origin": {
+        "position": [
+          2.98023212635945e-08,
+          -6.38378239159465e-16,
+          -1.4901163469804857e-08
+        ],
+        "relative_to": "left_hand_link",
+        "rotation": [
+          1.5707962512969806,
+          3.1786507648234874e-08,
+          -5.440092820663267e-15
+        ]
+      },
+      "original_name": "left_gloves_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_shoulder_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_shoulder_pitch_link_visual"
+      },
+      "name": "right_shoulder_pitch_link_visual",
+      "origin": {
+        "position": [
+          4.190951585769653e-09,
+          -7.450580596923828e-09,
+          -4.996003610813204e-16
+        ],
+        "relative_to": "right_shoulder_pitch_link",
+        "rotation": [
+          -3.1415925661670165,
+          -4.371138828673793e-08,
+          1.5707963267948948
+        ]
+      },
+      "original_name": "right_shoulder_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_shoulder_roll_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_shoulder_roll_link_visual"
+      },
+      "name": "right_shoulder_roll_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          -2.9802322387695312e-08
+        ],
+        "relative_to": "right_shoulder_roll_link",
+        "rotation": [
+          -1.5707963585813998,
+          -1.5707962393721182,
+          0.0
+        ]
+      },
+      "original_name": "right_shoulder_roll_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_shoulder_yaw_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_shoulder_yaw_link_visual"
+      },
+      "name": "right_shoulder_yaw_link_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          -2.9802322387695312e-08
+        ],
+        "relative_to": "right_shoulder_yaw_link",
+        "rotation": [
+          1.5707962830835083,
+          -4.371138961900556e-08,
+          1.5707962950083805
+        ]
+      },
+      "original_name": "right_shoulder_yaw_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\right_elbow_pitch_link_visual.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "right_elbow_pitch_link_visual"
+      },
+      "name": "right_elbow_pitch_link_visual",
+      "origin": {
+        "position": [
+          -1.1641532182693481e-09,
+          0.0,
+          1.4901161193847656e-08
+        ],
+        "relative_to": "right_elbow_pitch_link",
+        "rotation": [
+          -8.742279333784353e-08,
+          -3.178651031277013e-08,
+          1.5707963705062977
+        ]
+      },
+      "original_name": "right_elbow_pitch_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\ID516.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "ID516"
+      },
+      "name": "right_hand_link_visual",
+      "origin": {
+        "position": [
+          2.9802323511796125e-08,
+          -6.661338147750939e-16,
+          1.4901158917890456e-08
+        ],
+        "relative_to": "right_hand_link",
+        "rotation": [
+          1.570796251296976,
+          -3.178649632396002e-08,
+          -3.1415925661670094
+        ]
+      },
+      "original_name": "right_hand_link_visual"
+    },
+    {
+      "geometry": {
+        "exported": {
+          "obj": {
+            "export_operation": "blender_export",
+            "filepath": "..\\meshes\\obj\\ID26.obj",
+            "operations": [
+              "_initiated_in_blender"
+            ]
+          }
+        },
+        "geometry_type": "mesh",
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "ID26"
+      },
+      "name": "right_gloves_link_visual",
+      "origin": {
+        "position": [
+          2.9802323511796125e-08,
+          -6.661338147750939e-16,
+          1.4901158917890456e-08
+        ],
+        "relative_to": "right_hand_link",
+        "rotation": [
+          -1.570796370506267,
+          1.509957963108377e-07,
+          1.9095836023552692e-14
+        ]
+      },
+      "original_name": "right_gloves_link_visual"
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "links": [
+    {
+      "model": {
+        "name": "adam1_servo"
+      },
+      "name": "pelvis_link",
+      "originRoot": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "pelvis_link_visual"
+      ]
+    },
+    {
+      "name": "left_hip_roll_link",
+      "originRoot": {
+        "position": [
+          0.028699999675154686,
+          0.024383902549743652,
+          0.04900044947862625
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_hip_roll_link_visual"
+      ]
+    },
+    {
+      "name": "left_hip_yaw_link",
+      "originRoot": {
+        "position": [
+          0.0071248821914196014,
+          0.08434770256280899,
+          0.040325429290533066
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_hip_yaw_link_visual"
+      ]
+    },
+    {
+      "name": "left_hip_pitch_link",
+      "originRoot": {
+        "position": [
+          0.002499994356185198,
+          0.10982930660247803,
+          0.01362914964556694
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_hip_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "left_knee_link",
+      "originRoot": {
+        "position": [
+          0.0024999859742820263,
+          0.10040370374917984,
+          -0.18837134540081024
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_knee_link_visual"
+      ]
+    },
+    {
+      "name": "left_ankle_roll_link",
+      "originRoot": {
+        "position": [
+          0.02165267989039421,
+          0.08145290613174438,
+          -0.3533713221549988
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_ankle_roll_link_visual"
+      ]
+    },
+    {
+      "name": "left_ankle_pitch_link",
+      "originRoot": {
+        "position": [
+          0.002652717288583517,
+          0.10040270537137985,
+          -0.3883713185787201
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_ankle_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "right_hip_roll_link",
+      "originRoot": {
+        "position": [
+          0.028700001537799835,
+          -0.024819698184728622,
+          0.04897354915738106
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_hip_roll_link_visual"
+      ]
+    },
+    {
+      "name": "right_hip_yaw_link",
+      "originRoot": {
+        "position": [
+          0.007124889642000198,
+          -0.08478349447250366,
+          0.04029875993728638
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_hip_yaw_link_visual"
+      ]
+    },
+    {
+      "name": "right_hip_pitch_link",
+      "originRoot": {
+        "position": [
+          0.0025000041350722313,
+          -0.11026569455862045,
+          0.01360265165567398
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_hip_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "right_knee_link",
+      "originRoot": {
+        "position": [
+          0.002499994821846485,
+          -0.10084069520235062,
+          -0.1883983463048935
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_knee_link_visual"
+      ]
+    },
+    {
+      "name": "right_ankle_roll_link",
+      "originRoot": {
+        "position": [
+          0.021652687340974808,
+          -0.08189069479703903,
+          -0.35339832305908203
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_ankle_roll_link_visual"
+      ]
+    },
+    {
+      "name": "right_ankle_pitch_link",
+      "originRoot": {
+        "position": [
+          0.002652726136147976,
+          -0.10084069520235062,
+          -0.38839831948280334
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_ankle_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "torso_pitch_link",
+      "originRoot": {
+        "position": [
+          0.032999999821186066,
+          0.028454702347517014,
+          0.11614395678043365
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "torso_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "torso_roll_link",
+      "originRoot": {
+        "position": [
+          -0.04169970005750656,
+          -0.0002453215420246124,
+          0.13732264935970306
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "torso_roll_link_visual"
+      ]
+    },
+    {
+      "name": "torso_yaw_link",
+      "originRoot": {
+        "position": [
+          0.01834050379693508,
+          -0.0002453187480568886,
+          0.1971026510000229
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "torso_yaw_link_visual"
+      ]
+    },
+    {
+      "name": "head_yaw_link",
+      "originRoot": {
+        "position": [
+          0.037028513848781586,
+          -0.0002951081842184067,
+          0.36032265424728394
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "head_yaw_link_visual"
+      ]
+    },
+    {
+      "name": "head_pitch_link",
+      "originRoot": {
+        "position": [
+          0.037028513848781586,
+          0.01865489035844803,
+          0.3793226480484009
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "head_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "head_roll_link",
+      "originRoot": {
+        "position": [
+          -0.013371486216783524,
+          -0.00034511182457208633,
+          0.3896726667881012
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "head_roll_link_visual"
+      ]
+    },
+    {
+      "name": "left_shoulder_pitch_link",
+      "originRoot": {
+        "position": [
+          0.0010344255715608597,
+          0.09828269481658936,
+          0.3276026248931885
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          -1.1920928955078125e-07,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_shoulder_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "left_shoulder_roll_link",
+      "originRoot": {
+        "position": [
+          0.019984453916549683,
+          0.11957429349422455,
+          0.325602650642395
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_shoulder_roll_link_visual"
+      ]
+    },
+    {
+      "name": "left_shoulder_yaw_link",
+      "originRoot": {
+        "position": [
+          -0.012290537357330322,
+          0.11957430839538574,
+          0.2856026291847229
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          -7.105427145842759e-15,
+          -1.5543122344752192e-15,
+          -7.1054273576009955e-15
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_shoulder_yaw_link_visual"
+      ]
+    },
+    {
+      "name": "left_elbow_pitch_link",
+      "originRoot": {
+        "position": [
+          0.00195646402426064,
+          0.10016652196645737,
+          0.16777458786964417
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          -8.881783985243017e-15,
+          4.440892098500626e-16,
+          -7.105427357601003e-15
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_elbow_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "left_hand_link",
+      "originRoot": {
+        "position": [
+          0.12459346652030945,
+          0.13095226883888245,
+          0.16328619420528412
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          4.371139539216587e-08,
+          -7.549790126404332e-08,
+          -1.5608317785796808e-14
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "left_hand_link_visual",
+        "left_gloves_link_visual"
+      ]
+    },
+    {
+      "name": "right_shoulder_pitch_link",
+      "originRoot": {
+        "position": [
+          0.0010344339534640312,
+          -0.09887270629405975,
+          0.3276026248931885
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          -1.1920928955078125e-07,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_shoulder_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "right_shoulder_roll_link",
+      "originRoot": {
+        "position": [
+          0.019984453916549683,
+          -0.12016469985246658,
+          0.32560262084007263
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_shoulder_roll_link_visual"
+      ]
+    },
+    {
+      "name": "right_shoulder_yaw_link",
+      "originRoot": {
+        "position": [
+          -0.012290537357330322,
+          -0.12016470730304718,
+          0.2856025993824005
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          7.105427145842759e-15,
+          -1.5543122344752192e-15,
+          7.1054273576009955e-15
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_shoulder_yaw_link_visual"
+      ]
+    },
+    {
+      "name": "right_elbow_pitch_link",
+      "originRoot": {
+        "position": [
+          0.00195646402426064,
+          -0.10075690597295761,
+          0.16777458786964417
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          8.881783985243017e-15,
+          4.440892098500626e-16,
+          7.105427357601003e-15
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_elbow_pitch_link_visual"
+      ]
+    },
+    {
+      "name": "right_hand_link",
+      "originRoot": {
+        "position": [
+          0.12459307909011841,
+          -0.1315426528453827,
+          0.16328619420528412
+        ],
+        "relative_to": "pelvis_link",
+        "rotation": [
+          -4.371139539216587e-08,
+          -7.549790126404332e-08,
+          1.5608317785796808e-14
+        ]
+      },
+      "scale": 1.0,
+      "visuals": [
+        "right_hand_link_visual",
+        "right_gloves_link_visual"
+      ]
+    }
+  ]
+}
